@@ -11,6 +11,6 @@ days = 1
 if a > b:
     print(days)
 while a < b:
-    a = a + 0.1 * b
+    a = a + 0.1 * a
     days += 1
 print(f"Спортсмен пробежит {b} км на {days} день")
